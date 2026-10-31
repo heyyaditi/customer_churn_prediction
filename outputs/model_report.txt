@@ -1,0 +1,19 @@
+Customer Churn Prediction - Model Report
+Model: Logistic Regression
+Accuracy : 0.74
+Precision: 0.4933
+Recall   : 0.7976
+F1 score : 0.6096
+
+Confusion matrix:
+[[1074  417]
+ [ 103  406]]
+
+              precision    recall  f1-score   support
+
+      Stayed       0.91      0.72      0.81      1491
+     Churned       0.49      0.80      0.61       509
+
+    accuracy                           0.74      2000
+   macro avg       0.70      0.76      0.71      2000
+weighted avg       0.81      0.74      0.76      2000
